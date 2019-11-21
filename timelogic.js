@@ -13,3 +13,9 @@ firebase.initializeApp(firebaseConfig);
 
 var database = firebase.database();
 
+
+
+//Timeout Function - Keep at bottom
+setTimeout(function() {
+    location.reload();
+  }, 60 * 1000);
