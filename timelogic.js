@@ -38,7 +38,7 @@ $("#add-train-btn").on("click", function(event) {
       .val()
       .trim();
   
-    // Creates local "temporary" object for holding train data
+    // train data obj
     var newTrain = {
       name: trainName,
       dest: trainDest,
