@@ -1,3 +1,4 @@
+
 var firebaseConfig = {
   apiKey: "AIzaSyDFSAsscmiWzDBZieaHdLT9Byc9kxS9WtE",
   authDomain: "train-timer-176d8.firebaseapp.com",
