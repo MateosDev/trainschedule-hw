@@ -1,0 +1,29 @@
+body {
+    background-image: url("traintracks.jpg");
+    background-size: cover;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 1.25em;
+    opacity: 0.8;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h3 {
+    font-size: 2em;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+
+  .jumbotron {
+      background-color: black;
+      color: white;
+  }
+
+  thead{
+      background-color: black;
+      color: white;
+  }
