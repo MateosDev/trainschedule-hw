@@ -1,13 +1,13 @@
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAMZu0vVWDbh8iCgFM9FFyNlvQ6wRP2RrE",
-    authDomain: "smubootcamptraintimer.firebaseapp.com",
-    databaseURL: "https://smubootcamptraintimer.firebaseio.com",
-    projectId: "smubootcamptraintimer",
-    storageBucket: "smubootcamptraintimer.appspot.com",
-    messagingSenderId: "126169098046",
-    appId: "1:126169098046:web:17745885a36cfb7b276e6f"
-  };
+  apiKey: "AIzaSyBRKtXWHBIa4pKEsIlhvdJZGR1R6hoEi34",
+  authDomain: "smu-fullstack-traintimer.firebaseapp.com",
+  databaseURL: "https://smu-fullstack-traintimer.firebaseio.com",
+  projectId: "smu-fullstack-traintimer",
+  storageBucket: "smu-fullstack-traintimer.appspot.com",
+  messagingSenderId: "881650440341",
+  appId: "1:881650440341:web:ba92ac7ce14871e0ad239c"
+};
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
