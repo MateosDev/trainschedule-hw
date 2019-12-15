@@ -1,12 +1,12 @@
 
 var firebaseConfig = {
-  apiKey: "AIzaSyBRKtXWHBIa4pKEsIlhvdJZGR1R6hoEi34",
-  authDomain: "smu-fullstack-traintimer.firebaseapp.com",
-  databaseURL: "https://smu-fullstack-traintimer.firebaseio.com",
-  projectId: "smu-fullstack-traintimer",
-  storageBucket: "smu-fullstack-traintimer.appspot.com",
-  messagingSenderId: "881650440341",
-  appId: "1:881650440341:web:ba92ac7ce14871e0ad239c"
+  apiKey: "AIzaSyBaeQBZo66XTIYe8gc8zUtPrvuuH0DUmaw",
+  authDomain: "smu-fullstack-traintime.firebaseapp.com",
+  databaseURL: "https://smu-fullstack-traintime.firebaseio.com",
+  projectId: "smu-fullstack-traintime",
+  storageBucket: "smu-fullstack-traintime.appspot.com",
+  messagingSenderId: "834306207030",
+  appId: "1:834306207030:web:19caca26a9fcdea5f71797"
 };
 
 // Initialize Firebase
@@ -47,7 +47,20 @@ $("#add-train-btn").on("click", function (event) {
   };
 
   // Uploads train data to the database
-  database.ref().push(newTrain);
+  database.ref("/trainData").push(newTrain);
+
+  function printRow() {
+    //console.log("printing");
+    var tRow = $("<tr>").append(
+        $("<td>").text(trainName),
+        $("<td>").text(destination),
+        $("<td class='frequency'>").text(frequency),
+        $("<td class='nextTime'>").text(nextArrival),
+        $("<td class='minAway'>").text(minutesAway)
+    );
+
+    $("tbody").append(tRow);
+}
 
   // Logs everything to console
   console.log(newTrain.name);
@@ -114,6 +127,6 @@ database.ref().on("child_added", function (childSnapshot) {
 
 
 //Timeout Function - Keep at bottom
-setTimeout(function () {
-  location.reload();
-}, 60 * 1000);
+// setTimeout(function () {
+//   location.reload();
+// }, 60 * 1000);
