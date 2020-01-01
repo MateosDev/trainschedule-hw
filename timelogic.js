@@ -1,17 +1,15 @@
-
-var firebaseConfig = {
-  apiKey: "AIzaSyBaeQBZo66XTIYe8gc8zUtPrvuuH0DUmaw",
-  authDomain: "smu-fullstack-traintime.firebaseapp.com",
-  databaseURL: "https://smu-fullstack-traintime.firebaseio.com",
-  projectId: "smu-fullstack-traintime",
-  storageBucket: "smu-fullstack-traintime.appspot.com",
-  messagingSenderId: "834306207030",
-  appId: "1:834306207030:web:19caca26a9fcdea5f71797"
+var config = {
+  apiKey: "AIzaSyBsEbL2f2H5Pt44AZthZLJ4tHpAQy4qxko",
+  authDomain: "traintimersmuhw.firebaseapp.com",
+  databaseURL: "https://traintimersmuhw.firebaseio.com",
+  projectId: "traintimersmuhw",
+  storageBucket: "traintimersmuhw.appspot.com",
+  messagingSenderId: "608709981538",
+  appId: "1:608709981538:web:5c21557069710bd49ee83b"
 };
 
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
 
+firebase.initializeApp(config);
 var database = firebase.database();
 
 // 2. Add Trains Btn
