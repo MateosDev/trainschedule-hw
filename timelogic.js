@@ -60,6 +60,8 @@ $("#add-train-btn").on("click", function (event) {
     $("tbody").append(tRow);
 }
 
+printRow();
+
   // Logs everything to console
   console.log(newTrain.name);
   console.log(newTrain.dest);
@@ -76,6 +78,8 @@ $("#add-train-btn").on("click", function (event) {
   $("#freq-input").val("");
   $("#nextArrival-input").val("");
 });
+
+
 
 // 3. adds train and row to DB with user input
 database.ref().on("child_added", function (childSnapshot) {
