@@ -17,10 +17,10 @@
   <!-- Firebase References -->
 <!-- Firebase References -->
 
-<script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
-<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
-<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+
 
   <!-- Moment.js Reference -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
@@ -78,7 +78,81 @@
             <form>
               <div class="form-group">
                 <label for="train-name-input">Train Name</label>
-                <input class="form-control" id="train-name-input" placeholder="Flying Scotsman" type="text" />
+                <select class="form-control" id="train-name-input" placeholder="Select Your Train">
+                  <option>Advanced Flyer</option>
+                  <option>Advanced Wolverine</option>
+                  <option>Adventureland</option>
+                  <option>Afternoon Congressional</option>
+                  <option>American Express</option>
+                  <option>American Royal Zephyr</option>
+                  <option>Atlantic City Special</option>
+                  <option>Badger Limited</option>
+                  <option>Baltimore Day Express</option>
+                  <option>Beach Comber</option>
+                  <option>Beaver</option>
+                  <option>Blue Dart</option>
+                  <option>Boston Night Special</option>
+                  <option>Cannon Ball</option>
+                  <option>China Fast Mail</option>
+                  <option>Choctaw Rocket</option>
+                  <option>Clamdigger</option>
+                  <option>Dallas Express</option>
+                  <option>Davy Crockett</option>
+                  <option>Denali Star</option>
+                  <option>Desert Express</option>
+                  <option>Detroit Night Express</option>
+                  <option>Diplomat</option>
+                  <option>Fast Fifteen</option>
+                  <option>Fire Express</option>
+                  <option>Foggy Bottom</option>
+                  <option>Front Runner</option>
+                  <option>General Wood</option>
+                  <option>Golden Rocket</option>
+                  <option>Gothan Limited</option>
+                  <option>Green Mountain Flyer</option>
+                  <option>The Imperial</option>
+                  <option>Indiana Head</option>
+                  <option>Jeffersonian</option>
+                  <option>Jet Rocket</option>
+                  <option>Kansas City Mule</option>
+                  <option>Keystone Executive</option>
+                  <option>Keystone Express</option>
+                  <option>Keystone State Express</option>
+                  <option>King Coal</option>
+                  <option>Knickerbocker</option>
+                  <option>Main Line Express</option>
+                  <option>Man O War</option>
+                  <option>Midnight Special</option>
+                  <option>Minute Man</option>
+                  <option>Niagra Rainbow</option>
+                  <option>Nutmeg State</option>
+                  <option>Oil Field Special</option>
+                  <option>Oklahoma Rocket</option>
+                  <option>Oregon Train Express</option>
+                  <option>Pacemaker</option>
+                  <option>Peach Queen</option>
+                  <option>Pinetree Special</option>
+                  <option>Pocahontas</option>
+                  <option>Safety Express</option>
+                  <option>Scranton Express</option>
+                  <option>Scranton Flyer</option>
+                  <option>Sea Breeze</option>
+                  <option>Sea Plane</option>
+                  <option>Shasta Express</option>
+                  <option>Sinnissippi</option>
+                  <option>Skunk</option>
+                  <option>Sleepy Hollow</option>
+                  <option>Super Skunk</option>
+                  <option>Techachapi</option>
+                  <option>Texas Ranger</option>
+                  <option>Tire Saver</option>
+                  <option>Treasure Island</option>
+                  <option>Twightlight Express</option>
+                  <option>Wabash Cannonball</option>
+                  <option>Wall Street Special</option>
+                  <option>Winnipegger</option>
+                  <option>Wolverine</option>
+                  </select>
               </div>
               <div class="form-group">
                 <label for="dest-input">Destination</label>
@@ -101,10 +175,24 @@
       </div>
     </div>
   </div>
-  <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
-  <!-- JavaScript -->
+
+  <!--Footer-->
+  <div class="container" id="space"></div>
+  <div class="container" id="space"></div>
+ 
+            <footer id="footerBar">
+                    <p>Created by Oscar Mateos</p>
+                    <p>SMU Full Stack Development Bootcamp - Fall 2019</p>
+                    <p>Powered by <a href="https://firebase.google.com/" aria-label="External link to Firebase" rel="noopener noreferrer">Firebase</a>, <a href="https://momentjs.com/" aria-label="External link to Moment.js" rel="noopener noreferrer">Moment.js</a> and <a href="https://jquery.com/" aria-label="External link to jQuery" rel="noopener noreferrer">jQuery</a></p>
+                    <p>Hosted on <a href="https://github.com/" aria-label="Check out Github's homepage" rel="noopener noreferrer">Github</a></p>
+                </footer>
   <!-- Train Timer Main Logic -->
   <script src="timelogic.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase-app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  
   <!--TimeOut-->
   <script type="text/javascript">
     setTimeout(function () {

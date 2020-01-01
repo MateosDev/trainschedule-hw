@@ -14,16 +14,76 @@ body {
     font-size: 2em;
   }
   
-  .card-body {
+  .card-body, .card-header {
     text-align: center;
+    background-color: black;
+    
+    opacity: .9;
+    color: white;
+    border-style: double;
+    border-width: 2px;
+    z-index: 2;
+    box-shadow: 0 8px 16px -6px black;
   }
 
   .jumbotron {
-      background-color: black;
-      color: white;
+    background-color: black;
+    background-image: -webkit-linear-gradient(black, white);
+    opacity: .8;
+    color: white;
+    border-style: double;
+    border-width: 2px;
+    z-index: 2;
+    box-shadow: 0 8px 16px -6px black;
   }
 
   thead{
       background-color: black;
       color: white;
   }
+
+  #footerBar {
+    background-color: black;
+    /* background-image: -webkit-linear-gradient(right,black,white); */
+    opacity: .9;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin:auto;
+    border-style: double;
+      border-width: 2px;
+      z-index: 2;
+      box-shadow: 0 8px 16px -6px black;
+}
+#train-name-input, #destination, #first-time, #frequency{
+  background-color:  rgb(12, 14, 12);
+  background-blend-mode: unset;
+  color:white;
+  margin-left: 10%;
+
+  
+  max-width: 80%;
+}
+
+.form-control{
+  background-color:  rgb(12, 14, 12);
+  background-blend-mode: unset;
+  color:white;
+  margin-left: 10%;
+
+  
+  max-width: 80%;
+}
+#add-train-btn {
+ 
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  align-self: auto;
+  margin-right: 47%;
+
+}
+
+#space{
+  height: 40px;
+}
